@@ -90,14 +90,14 @@ export default function Login() {
       <section className="login-form">
         <form onSubmit={handleLoginForm}>
 
-          <label htmlFor="email">
+          <label htmlFor="email" className='email'>
             Email:
-            <input type="email" name="email"/>
+            <input type="email" name="email" />
           </label>
 
           <label htmlFor="password">
             Password:
-            <input type="password" name="password" />
+            <input type="password" name="password" className="password" />
           </label>
 
           {error && 
